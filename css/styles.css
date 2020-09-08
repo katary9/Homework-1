@@ -1,0 +1,18 @@
+body {
+    background-image: url(../img/01.jpg);
+    color: #fff;
+    text-align: center;
+    background-position: center;
+}
+table {
+    margin: auto;  /* Чтобы таблица стала по центру */
+    width: 30%; /* расширеть длину таблицы */
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px; /* ширина границы по краям*/
+    background: lightslategray;
+    opacity: 0.5;
+    color: rgb(0, 0, 0); /* просто цвет текста */
+    border: 7px solid  rgb(95, 38, 207);
+    border-radius: 20px; /* Закруглить */
+}
