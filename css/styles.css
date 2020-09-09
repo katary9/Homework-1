@@ -1,18 +1,24 @@
 body {
-    background-image: url(../img/01.jpg);
+    background-image: url(../img/03.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: no-repeat;
+    background-size: cover;
     color: #fff;
     text-align: center;
-    background-position: center;
+   
+    
 }
 table {
     margin: auto;  /* Чтобы таблица стала по центру */
-    width: 30%; /* расширеть длину таблицы */
-    text-align: left;
-    border-collapse: separate;
-    border-spacing: 5px; /* ширина границы по краям*/
-    background: lightslategray;
+    width: 50%; /* ширина, расширеть длину таблицы */
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+    background:  #fff;
     opacity: 0.5;
     color: rgb(0, 0, 0); /* просто цвет текста */
-    border: 7px solid  rgb(95, 38, 207);
-    border-radius: 20px; /* Закруглить */
+    /*border-spacing: 20px; ширина границы по краям не работает когда установлен collapse*/
+    /*border: 10px solid #fff; ширина рамки по краям, сплошная, и ее цвет*/
+    /*border-radius: 20px; rgb(95, 38, 207); Закруглить */
 }
