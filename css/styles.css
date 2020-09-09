@@ -22,3 +22,6 @@ table {
     /*border: 10px solid #fff; ширина рамки по краям, сплошная, и ее цвет*/
     /*border-radius: 20px; rgb(95, 38, 207); Закруглить */
 }
+.shadow {
+    box-shadow: 20px 10px 15px #4d2eff;
+}
